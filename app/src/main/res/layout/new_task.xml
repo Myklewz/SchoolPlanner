@@ -8,7 +8,7 @@
         android:layout_height="wrap_content"
         android:background="@null"
         android:hint="New Task"
-        android:text_apperance="@style/TextAppearance.AppCompat.Medium"
+        android:textAppearance="@style/TextAppearance.AppCompat.Medium"/>
 
     <Button
         android:id="@+id/addTaskButton"
@@ -16,11 +16,11 @@
         android:layout_height="wrap_content"
         android:layout_below="@id/newTaskText"
         android:layout_alignParentEnd="true"
-        android:text_size="20sp"
+        android:textSize="20sp"
         android:text="Save"
         android:textAllCaps="false"
         android:background="@android:color/transparent"
-        android:textColor="@color/black"
+        android:textColor="@color/black"/>
 
 
 
